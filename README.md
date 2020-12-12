@@ -11,10 +11,24 @@
 
 # #########################
 # Para realizar PUSH (ENVIAR) al repositorio (DESDE NUESTRA RAMA)
+# Guardar cambios
 # git add .
 # git commit -m "mensaje del commit."
 # git push
 # #########################
+
+# ########################
+# Para enviar a DEVELOP (Imagenes) desde mi rama
+# En la carpeta del repositorio local agregar la imagen
+# En Visual Studio Code Guardar cambios
+# git add .
+# git commit -m "mensaje del commit."
+# git push
+# git checkout develop
+# git pull origin MIRAMA
+# git push
+# volver a mi rama de trabajo con git checkout MIRAMA
+# ########################
 
 # 5 secciones distribuidas asi:
 
