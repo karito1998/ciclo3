@@ -38,6 +38,9 @@
 # Desde las paginas, enlace al inicio
 # Imagen que ocupe el ancho del sitio
 # El menú debe de estar en un tag <nav></nav>.
+#
+# SEMANA 2
+# Banner
 # #########################
 
 # #########################
@@ -47,6 +50,7 @@
 # Cada servicio debe contener logo y descripcion
 # Cada servicio debe contener un enlace al detalle de los servicios
 # El elemento donde están los servicios debe de tener un id=”services”
+#
 # #########################
 
 # #########################
@@ -55,6 +59,9 @@
 # Presentar 4 noticias
 # Cada noticia contiene resumen, imagen y enlace para leer la noticia completa
 # El elemento donde están los servicios debe de tener un id=”news
+#
+# SEMANA 2
+# 4 noticias en dos filas y 2 columnas, el uso de una API  como Colombia news API 
 # #########################
 
 # #########################
@@ -62,6 +69,9 @@
 # Dividir la pantalla en el numero de participantes (4)
 # En cada parte incluir una foto, nombre, datos como instutucion educativa, edad, etc
 # El elemento donde están los servicios debe de tener un id=”team”
+#
+# SEMANA 2
+# Se consumirá la información de los miembros desde un JSON tal como se explicó en la sesión 4.
 # #########################
 
 # #########################
