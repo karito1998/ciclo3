@@ -18,7 +18,7 @@
 # #########################
 
 # ########################
-# Para enviar a DEVELOP (Imagenes) desde mi rama
+# Para enviar a DEVELOP para que todos podamos acceder (seccion terminada, inforacion de interes, etc)
 # En la carpeta del repositorio local agregar la imagen
 # En Visual Studio Code Guardar cambios
 # git add .

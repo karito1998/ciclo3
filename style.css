@@ -81,13 +81,14 @@
 /*seccion 5*/
 .seccion5{
   text-align: center;
+  border-bottom: 20px #fdcfae solid;
 }
 
 .S5footer{
-  border-top: 20px #fdcfae solid;
+
+  border: 10px #a08173 dotted;
   width: 100%;
 }
-
 
 .S5elemento{
   
