@@ -1,0 +1,97 @@
+*{
+    font-family: Arial;
+    background-color: #fdcfae;
+}
+/*seccion 1*/
+.nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+  }
+  .S1elemento1{
+    
+    font-size: medium;
+    font-weight: bold;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 50px;
+    line-height: 50px;
+
+  }
+  .S1elemento{
+    font-size: small;
+    font-style: italic;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 50px;
+    border-left: 10px #fdcfae solid;
+    border-right: 10px #fdcfae solid;
+    
+  
+  }
+  
+/*.S1imagenPared{
+  width: 100%;
+  height: 600px;
+}*/
+
+.banner {
+  width: 100%;
+  height: 600px;
+  background-size: 100% 100% ;
+  /*background-position: botom 15px;*/
+  animation: banner 10s infinite;
+  animation-direction: alternate;
+}
+@keyframes banner {
+  0%, 30% {
+    
+    background-image: url(./imagenes/pared.jpg);
+    opacity: 1;
+  }
+  31%, 34% {
+    opacity: 0.1;
+  }
+  35%, 65% {
+    background-image: url(./imagenes/pared2.jpg);
+    opacity: 1;
+  }
+  66%, 74% {
+    opacity: 0.1;
+  }
+  75%, 100% {
+    background-image: url(./imagenes/pared3.jpg);
+    opacity: 1;
+  }
+}
+
+
+/*seccion 2*/
+
+/*seccion 3*/
+
+/*seccion 4*/
+
+/*seccion 5*/
+.seccion5{
+  text-align: center;
+  border-bottom: 20px #fdcfae solid;
+}
+
+.S5footer{
+
+  border: 10px #a08173 dotted;
+  width: 100%;
+}
+
+.S5elemento{
+  
+  width: 50%;
+  text-align: center;
+}
