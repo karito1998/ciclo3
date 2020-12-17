@@ -31,7 +31,7 @@ export default {
       {
       codigo : 2,
       nombre : 'Andres Sabogal',
-      descripcion : 'Estudiante',
+      descripcion : 'Estudiante de ingenieria Electrica, analista estadistico',
       rol: 'Desarrollador Frontend',
       image : './public/imagenes/AndresSabogal.png'
       },
