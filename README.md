@@ -54,7 +54,7 @@
 # #########################
 
 # #########################
-# Seccion 3: Deivier Zaraza: Noticias:
+# Seccion 3: Deiver Zaraza: Noticias:
 # Dividir pantalla en dos filas y dos columnas
 # Presentar 4 noticias
 # Cada noticia contiene resumen, imagen y enlace para leer la noticia completa

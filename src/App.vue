@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!--Seccion 4-->
-    <div class="container-fluid">
+    <div id= "team" class="container-fluid">
       <div class="row justify-content-center mb-5">
         <div class= "col mt-5" v-for="(miembro, index) of Team" :key = "index">
           <team-card :member="miembro"></team-card>
@@ -38,7 +38,7 @@ export default {
       {
       codigo : 3,
       nombre : 'Deivier Zaraza',
-      descripcion : 'Ingeniera Electronica egresada de la universidad ECCI en Bogota, amante de los gatos.',
+      descripcion : 'Administrador financiero, con amplia experiencia en remodelaciones de espacios, emprendedor, autodidacta, apasionado por la musica, los viajes, los animales y el deporte.',
       rol: 'Arquitecto de software',
       image : './public/imagenes/DeivierZaraza.jpeg'
       },

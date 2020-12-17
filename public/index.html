@@ -26,7 +26,7 @@
     <nav class="nav nav-pills nav-fill bg-light">
         <a class="nav-link active" aria-current="page" a href="#inicio">Inicio</a>
         <a class="nav-link" href="#services">Servicios</a>
-        <a class="nav-link" href="#noticias">Noticias</a>
+        <a class="nav-link" href="#news">Noticias</a>
         <a class="nav-link" a href="#equipo">Equipo</a>
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Login</a>
     </nav>
@@ -78,7 +78,7 @@
        
     <!--Seccion 3-->
     <!--News-->
-    <div class="container-fluid">
+    <div id= "news" class="container-fluid">
       <div class="row mt-md-5 mt-sm-5 mt-xs-5" id="NewSection">
           <div class="col-lg-6 col-xs-12" v-for="item in noticias" class="noticias-group-item" >
               <div class="d-flex justify-content-center align-items-center">
@@ -99,7 +99,7 @@
               <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
                   <!-- <button type="button" class="btn btn-outline-info" :onclick="location.href='item.url'">Info</button> -->
                   
-                  <a :href="item.url" target=_blank class="btn btn-primary">Link</a>
+                  <a :href="item.url" target=_blank class="btn btn-primary">Más informacion</a>
               </div>
           </div>
   
@@ -119,7 +119,8 @@
     Pie de sitio web que incluya informacion de contacto dividido en dos secciones
     seccion 1: informacion del sitio web y enlace al repositorio
     seccion 2: Contacto de los miembros del equipo, con nombres y roles-->
-
+    <br/>
+    <br/>
     <div class = "seccion5"> <h3 >Paneles Decorativos</h3>
     Proyectos e Innovación como representante oficial de la marca WallArt en Colombia exhibe este producto como la mejor opción para el diseño de interiores ya que proveen la versatilidad y elegancia a la decoración de los espacios.<br/>
     </div>
@@ -133,9 +134,8 @@
                 <br/>
                 <a href="#equipo">Contactanos:</a><br/><br/>
                 <a href= "https://github.com/karito1998">Karol Arciniegas:</a> Analista de Software &nbsp &nbsp &nbsp
-                <a href= "https://github.com/OEPORRASJ">Oscar Junco:</a> Desarrollador Frontend<br/>
                 <a href= "https://github.com/AndresSabogal">Andres Sabogal:</a> Desarrollador Backend &nbsp&nbsp
-                <a href= "https://github.com/Deivitor">Deivier Zaraza:</a> Arquitecto de software<br/><br/>
+                <a href= "https://github.com/Deivitor">Deiver Zaraza:</a> Arquitecto de software<br/><br/>
             </td>
         </tr>
         </tbody>
