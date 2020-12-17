@@ -24,15 +24,15 @@ export default {
       {
       codigo : 1,
       nombre : 'Karol Arciniegas',
-      descripcion : 'Ingeniera Electronica egresada de la universidad ECCI en Bogota, amante de los gatos.',
+      descripcion : 'Ingeniera Electronica egresada de la universidad ECCI en Bogotá desarrolladora backend en mi.com.co, amante de los gatos, taekwondista.',
       rol: 'Analista de Software',
       image : './public/imagenes/KarolGisselleArciniegasMartinez.png'
       },
       {
       codigo : 2,
       nombre : 'Andres Sabogal',
-      descripcion : 'Ingeniera Electronica egresada de la universidad ECCI en Bogota, amante de los gatos.',
-      rol: ' Desarrollador Backend',
+      descripcion : 'Estudiante',
+      rol: 'Desarrollador Frontend',
       image : './public/imagenes/AndresSabogal.png'
       },
       {
